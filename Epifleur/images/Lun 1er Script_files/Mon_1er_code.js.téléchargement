@@ -1,0 +1,10 @@
+function testradio(){
+    var radio = document.getElementsByClassName("choice")
+    var inputTxt = document.getElementsByName("zn_txt")
+        for ( var i = 0 ; i < radio.length; i++ ){
+            if( radio[i].checked){
+                inputTxt.value = radio[i].value;
+    }
+}
+}
+
