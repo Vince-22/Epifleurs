@@ -77,9 +77,10 @@ a:hover{
     color: rgb(37, 92, 15);
     text-decoration: unset;
 }
-a:link{
+#lienMail:link{
     color: var(--couleurEcriture);
 }
+
 .liencatégorie{
     color:var(--couleurPrimaire) ;
 }
@@ -319,7 +320,7 @@ thead tr:nth-child(3) th {
     background-color:var(--couleurPrimaire) ;
     border-radius : var(--borderRadius);
     text-align:center;
-    width: 30%;
+    width: 40%;
     height: auto;
     margin: auto;
     color: var(--couleurEcriture);
