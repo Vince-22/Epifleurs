@@ -78,7 +78,7 @@ a:hover{
     text-decoration: unset;
 }
 a:link{
-    text-decoration: none;
+    color: var(--couleurEcriture);
 }
 .liencatégorie{
     color:var(--couleurPrimaire) ;
@@ -338,6 +338,7 @@ thead tr:nth-child(3) th {
     margin: auto;
     
 }
+
 .lien{
     list-style-type: none;
     text-align: center;
@@ -352,7 +353,9 @@ thead tr:nth-child(3) th {
 .titlecontact{
     text-decoration: underline;
 }
-
+.bi{
+    color: whitesmoke;
+}
 .imgcontact{
     width: 70px;
     
