@@ -104,6 +104,9 @@ a:hover{
     background: transparent;
     margin-top: 50px;    
     margin-left: 50px;
+    @media screen(max-widht:500px){
+        display:none
+    }
 }
 .log{
     background: transparent;
